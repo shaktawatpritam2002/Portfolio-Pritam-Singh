@@ -1,0 +1,113 @@
+body {
+  font-family: 'Bellota', cursive;
+  font-size: 26pt;
+  background-color: black;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 15pt;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+
+h1 span {
+  border: 8px solid #666666;
+  border-radius: 8px;
+  color: black;
+  padding: 12px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  color: #000000;
+}
+
+.section {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+#header {
+  background-image: url("https://media.giphy.com/media/3oEdv1GbekAakxXO8g/giphy.gif");
+  background-size: cover;
+}
+
+#header p {
+  font-size: 60pt;
+  color: #ffffff;
+  padding-top: 8px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#res {
+  text-align: center;
+  margin: 50px auto;
+}
+
+#res a {
+  margin: 20px 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+progress {
+  width: 70%;
+  height: 20px;
+  color: #3fb6b2;
+  background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+  background: #efefef;
+}
+
+progress::-webkit-progress-value {
+  background: #3fb6b2;
+}
+
+progress::-moz-progress-bar {
+  color: #3fb6b2;
+  background: #efefef;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #f36f48;
+}
+
+#contacts img {
+  height: 150px;
+  width: 150px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+#contacts a {
+  text-decoration: none;
+}
+
+#contacts img:hover {
+  opacity: 0.8;
+}
+
+#contacts {
+  text-align: center;
+}
+}
